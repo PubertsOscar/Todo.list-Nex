@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.todoList{
+  height: 300px;
+  width: 250px;
+  border: 1px solid hotpink;
+  padding: 24px;
+  overflow-y: scroll;
+  
+}
+
+.listItem{
+  padding: 18px;
+margin-top: 10px;  
+border: 1px solid black;
+border-radius: 12px;
+list-style: none;
+text-decoration: none;
+}
+
+.listItem:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}
